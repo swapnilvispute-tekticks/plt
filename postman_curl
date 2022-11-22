@@ -1,0 +1,5 @@
+curl --location --request POST 'http://localhost:3000' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "sku":"ISF099639/86/90"
+}'
